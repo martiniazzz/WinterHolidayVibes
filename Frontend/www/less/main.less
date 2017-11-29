@@ -1,0 +1,38 @@
+@top: 100px;
+
+body{
+  background-color: #cf5351;
+  background-image: url("../images/background.png");
+}
+.gar {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:@top;
+  background:url(../images/gar.png) repeat;
+}
+
+.container{
+  margin: auto;
+  margin-top: @top + 20px;
+}
+
+.to-top{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  img{
+    width: 70px;
+    height: 70px;
+    opacity: 0.3;
+  }
+}
+
+
+@import "label.less";
+@import "menu";
+@import "contentdiv";
+@import "bookstyle";
