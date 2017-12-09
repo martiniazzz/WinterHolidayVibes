@@ -8,12 +8,12 @@
 
 .count{
   float: left;
-  margin-top: 30px;
+  margin-top: 130px;
 }
 
 .title-inner{
   margin-top: -60px;
-  font-family:'Showcard Gothic';
+  font-family:'MainTitle';
 }
 
 @keyframes moveUp {
@@ -28,24 +28,14 @@
   100%{transform:translate(0, -2px)}
 }
 
-.label-winter{
-  font-size: 65px;
-  margin-bottom: 5px;
-  //animation-name: moveUp;
-  //animation-duration: 3s;
-  //animation-iteration-count: infinite;
-}
-
-.label-holiday{
-  font-size: 60px;
-  margin-bottom: 5px;
-  //animation-name: moveDown;
-  //animation-duration: 2s;
-  //animation-iteration-count: infinite;
-}
-
-.label-vibes{
-  font-size: 85px;
+.label-whv{
+  font-weight: normal;
+  font-size: 70px;
+  word-wrap: break-word;
+  white-space: pre-line;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   //animation-name: moveUp;
   //animation-duration: 3s;
   //animation-iteration-count: infinite;
@@ -53,11 +43,11 @@
 
 .for-count{
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: rgba(0,0,0,0.3);
   color: white;
-  font: 70px 'Showcard Gothic';
+  font: 55px 'MainTitle';
 }
 
 .seconds{
@@ -68,20 +58,13 @@
   margin: auto;
   margin-top: 15px;
   color: white;
-  font: 20px 'Courier New';
+  font: 20px 'SubTitle';
+  font-weight: bold;
 }
 
 .count-title{
   margin: auto;
-  font: 30px 'Showcard Gothic';
+  font: 32px 'SubTitle';
+  font-weight: bold;
 }
 
-@media (max-width: 770px){
-  .title-inner{
-    margin-top:-450px;
-  }
-  .count-inner{
-    margin-top: 250px;
-    float: none;
-  }
-}
