@@ -35,6 +35,7 @@
 }
 
 .item-author{
+  font-family: "Times New Roman";
   text-align: center;
   font-size: 20px;
   color: #604124;
@@ -56,7 +57,7 @@
 }
 
 .item-description{
-  font-family: "Courier New";
+  font-family: "Comic Sans MS";
   margin: 5px;
   padding: 5px;
 }
@@ -64,7 +65,18 @@
 .item-other{
   margin-top: 7px;
   margin-left: 10px;
-  font-family: "Courier New";
+  font-family: "Comic Sans MS";
+}
+
+.item-link{
+  margin-top: 7px;
+  margin-left: 10px;
+  font-family: "Comic Sans MS";
+  text-align: center;
+  font-size: 15px;
+  a{
+    color: white;
+  }
 }
 
 @media (max-width: 770px){
@@ -80,4 +92,94 @@
       padding: 0;
     }
   }
+}
+
+.music{
+  width: 100%;
+  background: rgba(255,255,255,0.3);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "SubTitle";
+}
+
+.music-title{
+  padding: 5px;
+  display: inline-block;
+  font-size: 20px;
+  color: #604124;
+  text-align: center;
+  font-weight: bold;
+}
+
+.music-audio{
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-artist{
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: #604124;
+  font-family: "Comic Sans MS";
+}
+
+.music-genre{
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: #604124;
+  font-family: "Comic Sans MS";
+}
+
+.challenge{
+  position: relative;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.challenge::after{
+  text-align: center;
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 100%;
+  left:50%;
+  margin-left: -60%;
+  background: rgba(196, 69, 87, 0.89);
+  border-radius: 5px;
+  padding: 7px;
+  font: 13px "Comic Sans MS";
+  color: #fff;
+  visibility: hidden;
+  transition: all 1s ease;
+}
+
+.challenge:hover::after{
+  padding: 7px;
+  text-align: center;
+  width: 120%;
+  font: 18px "Comic Sans MS";
+  color: #fff;
+  visibility: visible;
+  transform: translateY(-30px);
+}
+
+.challenge-item{
+  font-family: MainTitle;
+  font-size: 90px;
+}
+
+.challenge-text{
+  text-align: center;
+  font-size: 20px;
 }

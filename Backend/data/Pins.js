@@ -21,6 +21,7 @@ var pins_info = [
         adress:'Голосіївський проспект, 114, Київ',
         coordinatesX:50.386296,
         coordinatesY:30.489027
+
     },
 
     {
@@ -29,6 +30,7 @@ var pins_info = [
         adress:'проспект Героїв Сталінграду, 24,Київ',
         coordinatesX:50.511795,
         coordinatesY:30.507340
+
     },
 
     {
@@ -37,7 +39,6 @@ var pins_info = [
         adress:'вулиця Інститутська 2 ,Київ',
         coordinatesX:50.449330,
         coordinatesY:30.525909
-
     },
 
     {
@@ -64,7 +65,49 @@ var pins_info = [
         coordinatesX:50.450159,
         coordinatesY:30.594540
 
+    },
+
+    {
+        name :'Зимова країна на ВДНХ',
+        type:'виставка',
+        adress:'проспект Академіка Глушкова, 1, Київ',
+        coordinatesX:50.379672,
+        coordinatesY:30.477722
+
+    },
+    {
+        name :'Софіївська площа ',
+        type:'концерт',
+        adress:'вулиця Володимирська, 22, Київ',
+        coordinatesX:50.453428,
+        coordinatesY: 30.516103
+
+    },
+    {
+        name :'Хрещатик ',
+        type:'фельтиваль,новорічні програми',
+        adress:'вулиця Хрещатик, Київ',
+        coordinatesX:50.448076,
+        coordinatesY:30.522211
+
+    },
+    {
+        name :'Євразія ',
+        type:'ресторан японської кухні ',
+        adress:'вулиця Ярославів Вал, 8А, Київ',
+        coordinatesX:50.449525,
+        coordinatesY:30.512205
+
+    },
+    {
+        name :'Космопотліт ТРЦ ',
+        type:'ковзанка',
+        adress:'вулиця Вадима Гетьмана, 6, Київ',
+        coordinatesX:50.450285,
+        coordinatesY:30.441713
+
     }
+
 ];
 
 exports.pins_info = pins_info;

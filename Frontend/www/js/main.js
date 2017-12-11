@@ -114,6 +114,76 @@ var books_info = [
 
 exports.booksInfo = books_info;
 },{}],2:[function(require,module,exports){
+var challenges_info = [
+
+    {
+        id: 1,
+        text:'Написати лист Святому Миколаю'
+    },
+    {
+        id: 2,
+        text:'Навчитись готувати імбирне печиво'
+    },
+    {
+        id: 3,
+        text:'Придумати святкове меню та скласти список гостей'
+    },
+    {
+        id: 4,
+        text:'Подивитись улюблений новорічний фільм'
+    },
+    {
+        id: 5,
+        text:'Написати те,чого хочеш досягнути в наступному році.Заховати цей лист.'
+    },
+    {
+        id: 6,
+        text:'Підготувати подарунки на Новий Рік'
+    },
+    {
+        id: 7,
+        text:'Зліпити сніговика '
+    },
+    {
+        id: 8,
+        text:'Пригадати найяскравіші моменти за цей рік '
+    },
+    {
+        id: 9,
+        text:'Створити коллаж фотографій з найкращими моментами'
+    },
+    {
+        id: 10,
+        text:'Зробити новорічні відкритки для всієї родини '
+    },
+    {
+        id: 11,
+        text:'Покататись на ковзанах'
+    },
+    {
+        id: 12,
+        text:'Зробити генеральне прибирання в квартирі '
+    },
+    {
+        id: 13,
+        text:'Прикрасити квартиру'
+    },
+    {
+        id: 14,
+        text:'Прикрасити ялинку'
+    },
+    {
+        id: 15,
+        text:'Вивчити колядку'
+    },
+    {
+        id: 16,
+        text:'Влаштувати вечірку з друзями'
+    }
+
+    ];
+exports.challenges_info = challenges_info;
+},{}],3:[function(require,module,exports){
 var film_info=[
     {
         id:1,
@@ -422,7 +492,98 @@ var film_info=[
     }
 ];
 exports.film_info = film_info;
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
+
+
+var music_info = [
+    {
+        id:1,
+        track: 'audios/track1.mp3',
+        title: 'А вже Piздво',
+        artist: 'Дивні',
+        genre: 'затишна різдвяна пісня'
+    },
+    {
+        id:2,
+        track: 'audios/track2.mp3',
+        title: 'What Child is This',
+        artist: 'British Folk',
+        genre: 'британський фольклор'
+    },
+    {
+        id:3,
+        track: 'audios/track3.mp3',
+        title: 'Новая радiсть',
+        artist: 'Райгородок',
+        genre: 'автентична гуцульська колядка'
+    },
+    {
+        id:4,
+        track: 'audios/track4.mp3',
+        title: 'While Shepherds Watched Their Flocks',
+        artist: 'British Folk',
+        genre: 'британський фольклор'
+    },
+    {
+        id:5,
+        track: 'audios/track5.mp3',
+        title: 'Сад Рiздвяний',
+        artist: 'Сестри Тельнюк',
+        genre: 'українська колядка'
+    },
+    {
+        id:6,
+        track: 'audios/track6.mp3',
+        title: 'Es ist ein Ros entsprungen',
+        artist: 'German Folk',
+        genre: 'німецький фольклор'
+    },
+    {
+        id:7,
+        track: 'audios/track7.mp3',
+        title: 'Щедрик',
+        artist: 'Олег Скрипка та Ле Гранд Оркестр',
+        genre: 'українська колядка'
+    },
+    {
+        id:8,
+        track: 'audios/track8.mp3',
+        title: 'When Christmas Comes to town',
+        artist: 'Matthew Hall and Meagan Moore',
+        genre: 'саундтрек'
+    },
+    {
+        id:9,
+        track: 'audios/track9.mp3',
+        title: 'Шедше три царi',
+        artist: 'A Capella Leopoplis',
+        genre: 'колядка а-капелла'
+    },
+    {
+        id:10,
+        track: 'audios/track10.mp3',
+        title: 'Little Drummer Boy',
+        artist: 'Frank Sinatra',
+        genre: 'американська колядка'
+    },
+    {
+        id:11,
+        track: 'audios/track11.mp3',
+        title: 'Нова Радiсть',
+        artist: 'Піккардійська Терція',
+        genre: 'колядка а-капелла'
+    },
+    {
+        id:12,
+        track: 'audios/track12.mp3',
+        title: 'На Йорданськiй рiчцi',
+        artist: 'Божичі',
+        genre: 'ураїнський автентичний фольклор'
+    }
+];
+
+exports.musicInfo = music_info;
+},{}],5:[function(require,module,exports){
 var pins_info = [
     {
         name :'komod.ua',
@@ -446,6 +607,7 @@ var pins_info = [
         adress:'Голосіївський проспект, 114, Київ',
         coordinatesX:50.386296,
         coordinatesY:30.489027
+
     },
 
     {
@@ -454,6 +616,7 @@ var pins_info = [
         adress:'проспект Героїв Сталінграду, 24,Київ',
         coordinatesX:50.511795,
         coordinatesY:30.507340
+
     },
 
     {
@@ -462,7 +625,6 @@ var pins_info = [
         adress:'вулиця Інститутська 2 ,Київ',
         coordinatesX:50.449330,
         coordinatesY:30.525909
-
     },
 
     {
@@ -489,11 +651,53 @@ var pins_info = [
         coordinatesX:50.450159,
         coordinatesY:30.594540
 
+    },
+
+    {
+        name :'Зимова країна на ВДНХ',
+        type:'виставка',
+        adress:'проспект Академіка Глушкова, 1, Київ',
+        coordinatesX:50.379672,
+        coordinatesY:30.477722
+
+    },
+    {
+        name :'Софіївська площа ',
+        type:'концерт',
+        adress:'вулиця Володимирська, 22, Київ',
+        coordinatesX:50.453428,
+        coordinatesY: 30.516103
+
+    },
+    {
+        name :'Хрещатик ',
+        type:'фельтиваль,новорічні програми',
+        adress:'вулиця Хрещатик, Київ',
+        coordinatesX:50.448076,
+        coordinatesY:30.522211
+
+    },
+    {
+        name :'Євразія ',
+        type:'ресторан японської кухні ',
+        adress:'вулиця Ярославів Вал, 8А, Київ',
+        coordinatesX:50.449525,
+        coordinatesY:30.512205
+
+    },
+    {
+        name :'Космопотліт ТРЦ ',
+        type:'ковзанка',
+        adress:'вулиця Вадима Гетьмана, 6, Київ',
+        coordinatesX:50.450285,
+        coordinatesY:30.441713
+
     }
+
 ];
 
 exports.pins_info = pins_info;
-},{}],4:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 
 
 var recipes_info = [
@@ -502,69 +706,146 @@ var recipes_info = [
         id:1,
         icon: 'images/recipes/recipe1.jpg',
         title: "Рiздвяний пунш",
-        type: 'Напої',
-        subtype:'без алкоголю'
+        type: 'Напiй',
+        subtype:'алькогольний напiй (мiстить джин)',
+        link:'https://www.youtube.com/watch?v=Ms-LB_I4MW8'
     },
+
    {
         id:2,
         icon: 'images/recipes/recipe2.jpg',
         title: "Гарячий шоколад з iмбирним пряником",
-        type: 'Напої',
-        subtype:'без алкоголю'
+        type: 'Напiй',
+        subtype:'без алкоголю',
+        link:'https://www.youtube.com/watch?v=CC7dbAF8Km8'
     },
+
        {
         id:3,
         icon: 'images/recipes/recipe3.jpg',
         title: "Какао зi збитими вершками i карамеллю",
-        type: 'Напої',
-        subtype:'без алкоголю'
+        type: 'Напiй',
+        subtype:'без алкоголю',
+        link: 'https://www.youtube.com/watch?v=QvDUbdg0Hek'
     },
+
        {
         id:4,
         icon: 'images/recipes/recipe4.jpg',
         title: "Пряний ег-ног зi згущеним молоком",
-        type: 'Напої',
-        subtype:'з алкоголем'
+        type: 'Напiй',
+        subtype:'алкогольний напiй',
+        link: 'https://www.youtube.com/watch?v=oTnggiJ5EMg'
     },
+
         {
         id:5,
         icon: 'images/recipes/recipe5.jpg',
         title: "Апельсиновi цукерки з шоколадом",
-        type: 'Солодощi'
+        type: 'Солодощi',
+        link:'https://www.youtube.com/watch?v=gNPAnrM08gQ'
     },
+
     { id:6,
         icon: 'images/recipes/recipe6.jpg',
-        title: "Різдвянi iмбирнi пряники",
-        type: 'Солодощi'
+        title: "Рiздвянi iмбирнi пряники",
+        type: 'cолодощi',
+        link:'https://www.youtube.com/watch?v=YI6mtEfwV1w'
     },
+
     { id:7,
         icon: 'images/recipes/recipe7.jpg',
         title: "Рiздвяна лазанья зi шпинатом та грибами",
         type: 'Страви',
-        subtype: 'вега'
+        subtype: 'вега',
+        link: 'https://www.youtube.com/watch?v=zoTxWazuEgo'
     },
+
     {   id:8,
         icon:'images/recipes/recipe8.jpg',
         title: "Рiздвяний гарбузовий суп-пюре",
         type: 'Страви',
-        subtype: 'вега'
+        subtype: 'вега',
+        link: 'https://www.youtube.com/watch?v=RPGBMkN-_Ys'
     },
+
     {  id:9,
         icon: 'images/recipes/recipe9.jpg',
         title: "Святковий овочевий салат",
         type: 'Страви',
-        subtype: 'вега'
+        subtype: 'вега',
+        link: 'https://www.youtube.com/watch?v=y3T1MTViG3I'
     },
+
     {
         id:10,
-         icon: 'images/recipes/recipe10.jpg',
-         title: 'Снiжнi кульки iз бiлим шоколадом',
-         type: 'Солодощi'
+        icon: 'images/recipes/recipe10.jpg',
+        title: 'Снiжнi кульки iз бiлим шоколадом',
+        type: 'Солодощi',
+        link:'https://www.youtube.com/watch?v=bKS7WSvOjFg'
+
+    },
+
+    {
+        id:11,
+        icon: 'images/recipes/recipe11.jpg',
+        title: 'Рiздвяна запечена курка',
+        type: 'Страви',
+        subtype: 'вега',
+        link:'https://www.youtube.com/watch?v=6kRJCiO8XWk'
+
+    },
+
+    {
+        id:12,
+        icon: 'images/recipes/recipe12.jpg',
+        title: 'Рiздвянi сушi',
+        type: 'Страви',
+        subtype: 'вега',
+        link:'https://www.youtube.com/watch?v=hnBUIoQ0erU'
+
+    },
+
+    {
+        id:13,
+        icon: 'images/recipes/recipe13.jpg',
+        title: 'Шинкована картопля Хасслбек',
+        type: 'Страви',
+        subtype: 'вега',
+        link:'https://www.youtube.com/watch?v=sXKhvvPXB5I'
+
+    },
+
+    {
+        id:14,
+        icon: 'images/recipes/recipe14.jpg',
+        title: 'Червона капуста, бекон та чорнослив',
+        type: 'Страви',
+        link:'https://www.youtube.com/watch?v=PM2kDu2L6AA'
+
+    },
+
+    {
+        id:15,
+        icon: 'images/recipes/recipe15.jpg',
+        title: 'фруктовий салат з йогуртом',
+        type: 'Страви',
+        link:'https://www.youtube.com/watch?v=bKS7WSvOjFg'
+
+    },
+
+    {
+        id:16,
+        icon: 'images/recipes/recipe16.jpg',
+        title: 'Iнжировi роли',
+        type: 'Страви',
+        link:'https://www.youtube.com/watch?v=bpFsebeKAcc'
+
     }
 ];
 
 exports.recipesInfo = recipes_info;
-},{}],5:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 var Templates = require('../src/Templates');
 
 var booksCol1 = $('#books-col-1');
@@ -598,7 +879,51 @@ function initialiseBooks() {
 }
 
 exports.initialiseBooks = initialiseBooks();
-},{"../../Backend/data/BooksData":1,"../src/Templates":10}],6:[function(require,module,exports){
+},{"../../Backend/data/BooksData":1,"../src/Templates":14}],8:[function(require,module,exports){
+var Templates = require('../src/Templates');
+
+var chCol1 = $('#col-ch-1');
+var chCol2 = $('#col-ch-2');
+var chCol3 = $('#col-ch-3');
+var chCol4 = $('#col-ch-4');
+
+var challengesData = require('../../Backend/data/Challenges');
+var CHALLENGES = [];
+
+var counter;
+
+function random_rgba() {
+    var o = Math.round, r = Math.random, s = 255;
+    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + 0.7 + ')';
+}
+
+function initialiseChallenges() {
+    chCol1.html("");
+    chCol2.html("");
+    chCol3.html("");
+    chCol4.html("");
+
+    counter = 1;
+    CHALLENGES = challengesData.challenges_info;
+    function showChallenges(challenge) {
+        var html_code = Templates.OneChallengeItem({challenge: challenge});
+        var $node = $(html_code);
+        $node.css("background", random_rgba());
+        if(counter%4==1)
+            chCol1.append($node);
+        else if(counter%4==2)
+            chCol2.append($node);
+        else if(counter%4==3)
+            chCol3.append($node);
+        else
+            chCol4.append($node);
+        counter++;
+    }
+    CHALLENGES.forEach(showChallenges);
+}
+
+exports.initialiseChallenges = initialiseChallenges();
+},{"../../Backend/data/Challenges":2,"../src/Templates":14}],9:[function(require,module,exports){
 
 function countdown(){
     var countDownDate = new Date("Jan 1, 2018 00:00:00").getTime();
@@ -636,7 +961,7 @@ function countdown(){
 
 exports.countdown = countdown;
 
-},{}],7:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 var Templates = require('../src/Templates');
 
 var filmsCol1 = $('#films-col-1');
@@ -670,7 +995,7 @@ function initialiseFilms() {
 }
 
 exports.initialiseFilms= initialiseFilms();
-},{"../../Backend/data/FilmsData":2,"../src/Templates":10}],8:[function(require,module,exports){
+},{"../../Backend/data/FilmsData":3,"../src/Templates":14}],11:[function(require,module,exports){
 var Templates = require('../src/Templates');
 
 var mapData = require('../../Backend/data/Pins');
@@ -712,7 +1037,33 @@ function initialiseMap(){
 
 google.maps.event.addDomListener(window,'load',initialiseMap);
 
-},{"../../Backend/data/Pins":3,"../src/Templates":10}],9:[function(require,module,exports){
+},{"../../Backend/data/Pins":5,"../src/Templates":14}],12:[function(require,module,exports){
+var Templates = require('../src/Templates');
+
+var musicCol = $('#music-col');
+
+
+var musicData = require('../../Backend/data/MusicData');
+var MUSIC = [];
+
+var counter;
+
+function initialiseMusic() {
+    musicCol.html("");
+
+
+    MUSIC = musicData.musicInfo;
+    function showMusic(music) {
+        var html_code = Templates.OneMusicItem({music: music});
+        var $node = $(html_code);
+            musicCol.append($node);
+        counter++;
+    }
+    MUSIC.forEach(showMusic);
+}
+
+exports.initialiseMusic = initialiseMusic();
+},{"../../Backend/data/MusicData":4,"../src/Templates":14}],13:[function(require,module,exports){
 var Templates = require('../src/Templates');
 
 var recipesCol1 = $('#recipes-col-1');
@@ -746,15 +1097,17 @@ function initialiseRecipes() {
 }
 
 exports.initialiseRecipes = initialiseRecipes();
-},{"../../Backend/data/RecipesData":4,"../src/Templates":10}],10:[function(require,module,exports){
+},{"../../Backend/data/RecipesData":6,"../src/Templates":14}],14:[function(require,module,exports){
 
 var ejs = require('ejs');
 
 exports.OneBookItem = ejs.compile("<div class=\"item\">\r\n\r\n    <div class=\"item-title\">\r\n            <%= book.title%>\r\n    </div>\r\n\r\n    <div class=\"item-image\">\r\n        <div class=\"item-image-inner\">\r\n            <img src=\"<%= book.img%>\">\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"item-author\">\r\n        Автор: <%= book.author%>\r\n    </div>\r\n\r\n    <div class=\"item-type\">\r\n        Жанр: <%= book.type%>\r\n    </div>\r\n\r\n    <div>\r\n        <div class=\"item-description\">\r\n            <%= book.description%>\r\n        </div>\r\n    </div>\r\n\r\n</div>");
-exports.OneRecipeItem = ejs.compile("<div class=\"item\">\r\n\r\n    <div class=\"item-title\">\r\n        <%= recipe.title%>\r\n    </div>\r\n\r\n    <div class=\"item-image\">\r\n        <div class=\"item-image-inner\">\r\n            <img src=\"<%= recipe.icon%>\">\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"item-type\">\r\n        Тип: <%= recipe.type%>  <%= recipe.subtype%>\r\n    </div>\r\n\r\n</div>");
+exports.OneRecipeItem = ejs.compile("<div class=\"item\">\r\n\r\n    <div class=\"item-title\">\r\n        <%= recipe.title%>\r\n    </div>\r\n\r\n    <div class=\"item-image\">\r\n        <div class=\"item-image-inner\">\r\n            <img src=\"<%= recipe.icon%>\">\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"item-type\">\r\n        Тип: <%= recipe.type%>  <%= recipe.subtype%>\r\n    </div>\r\n\r\n    <div class=\"item-link\">\r\n        <a href=\"<%= recipe.link%>\">Як приготувати?</a>\r\n    </div>\r\n\r\n</div>");
 exports.OneFilmItem = ejs.compile("<div class=\"item\">\r\n\r\n    <div class=\"item-title\">\r\n        <%= film.title%>\r\n    </div>\r\n\r\n    <div class=\"item-image\">\r\n        <div class=\"item-image-inner\">\r\n            <img src=\"<%= film.icon%>\">\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"item-type\">\r\n        Жанр: <%= film.type%>\r\n    </div>\r\n\r\n    <div class=\"item-other\">\r\n        Рік: <%= film.year%>\r\n    </div>\r\n\r\n    <div class=\"item-other\">\r\n        Країна: <%= film.country%>\r\n    </div>\r\n\r\n    <div class=\"item-other\">\r\n        Продюсер: <%= film.director%>\r\n    </div>\r\n\r\n    <div>\r\n        <div class=\"item-description\">\r\n            <%= film.description%>\r\n        </div>\r\n    </div>\r\n\r\n</div>");
 exports.OnePinItem = ejs.compile("<div class=\"pin\">\r\n    <div class=\"pin-name\">\r\n        <%= pin.name%>\r\n    </div>\r\n    <div class=\"pin-type\">\r\n        Тип: <%= pin.type%>\r\n    </div>\r\n    <div class=\"pin-adress\">\r\n        Адреса: <%= pin.adress%>\r\n    </div>\r\n</div>");
-},{"ejs":13}],11:[function(require,module,exports){
+exports.OneMusicItem = ejs.compile("<div class=\"music\">\r\n <div class=\"row\">\r\n\r\n    <div class=\"music-title col-sm-6 col-md-3 col-xs-12\">\r\n        <%= music.title%>\r\n    </div>\r\n\r\n    <div class=\"music-audio col-sm-6 col-md-3 col-xs-12\">\r\n        <audio controls>\r\n            <source src=\"<%= music.track%>\" type=\"audio/mp3\">\r\n        </audio>\r\n    </div>\r\n\r\n    <div class=\"music-artist col-sm-6 col-md-3 col-xs-12\">\r\n        Виконавець: <%= music.artist%>\r\n    </div>\r\n\r\n    <div class=\"music-genre col-sm-6 col-md-3 col-xs-12\">\r\n        Жанр: <%= music.genre%>\r\n    </div>\r\n\r\n </div>\r\n</div>");
+exports.OneChallengeItem = ejs.compile("<div class=\"challenge\" data-tooltip=\"<%= challenge.text%>\">\r\n\r\n    <div class=\"challenge-item\">\r\n        <div class=\"challnege-inner\">\r\n            <%= challenge.id%>\r\n        </div>\r\n        <div class=\"challenge-text\">\r\n            день\r\n        </div>\r\n\r\n    </div>\r\n\r\n</div>");
+},{"ejs":17}],15:[function(require,module,exports){
 $(function () {
 
     var Countdown = require('../src/Countdown.js');
@@ -762,16 +1115,20 @@ $(function () {
     var Recipes = require('../src/Recipe');
     var Films = require('../src/Films');
     var Map = require('../src/Map');
+    var Music = require('../src/Music');
+    var Challenges = require('../src/Challenge');
 
     Countdown.countdown();
     Books.initialiseBooks();
     Recipes.initialiseRecipes();
     Films.initialiseFilms();
+    Music.initialiseMusic();
+    Challenges.initialiseChallenges();
 
 });
-},{"../src/Books":5,"../src/Countdown.js":6,"../src/Films":7,"../src/Map":8,"../src/Recipe":9}],12:[function(require,module,exports){
+},{"../src/Books":7,"../src/Challenge":8,"../src/Countdown.js":9,"../src/Films":10,"../src/Map":11,"../src/Music":12,"../src/Recipe":13}],16:[function(require,module,exports){
 
-},{}],13:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /*
  * EJS Embedded JavaScript templates
  * Copyright 2112 Matthew Eernisse (mde@fleegix.org)
@@ -1639,7 +1996,7 @@ if (typeof window != 'undefined') {
   window.ejs = exports;
 }
 
-},{"../package.json":15,"./utils":14,"fs":12,"path":16}],14:[function(require,module,exports){
+},{"../package.json":19,"./utils":18,"fs":16,"path":20}],18:[function(require,module,exports){
 /*
  * EJS Embedded JavaScript templates
  * Copyright 2112 Matthew Eernisse (mde@fleegix.org)
@@ -1805,7 +2162,7 @@ exports.cache = {
   }
 };
 
-},{}],15:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports={
   "_args": [
     [
@@ -1920,7 +2277,7 @@ module.exports={
   "version": "2.5.7"
 }
 
-},{}],16:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 (function (process){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -2148,7 +2505,7 @@ var substr = 'ab'.substr(-1) === 'b'
 ;
 
 }).call(this,require('_process'))
-},{"_process":17}],17:[function(require,module,exports){
+},{"_process":21}],21:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -2334,4 +2691,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[11]);
+},{}]},{},[15]);
